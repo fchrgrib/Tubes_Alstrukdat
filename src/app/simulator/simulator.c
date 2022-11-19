@@ -34,6 +34,7 @@ int nMove;
 // Command Parser
 void simulatorCommandParser(char query[])
 {
+		printf("cek\n");
     // Available commands
     char moveNCommand[] = "MOVE NORTH";
     char moveECommand[] = "MOVE EAST";
@@ -292,7 +293,8 @@ int simulator()
 {
     renderGameState(currentGameState);
     renderMap(map);
-
+    simulatorCommandParser("Masukkan perintah");
+//	printf("cek\n");
     simulatorCommandParser("Masukkan perintah");
 
     return 0;

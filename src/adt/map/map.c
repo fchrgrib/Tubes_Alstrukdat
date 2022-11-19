@@ -69,6 +69,7 @@ void setMap(MatrixChar *map)
 
 void renderMap(MatrixChar m)
 {
+	printf("fdfdfd\n");
     for (int i = 0; i < m.rowEff; i++)
     {
         for (int j = 0; j < m.colEff; j++)
