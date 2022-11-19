@@ -47,4 +47,9 @@ int main(){
     tree(arr,treeResep,length);
 
     printf("%d",INFO(NEXT(FIRST(treeResep[1][0]))));
+    int i=0;
+    while(treeResep[2][i] != 0){
+        i++;
+    }
+    printf("\n%d", i);
 }

@@ -10,7 +10,7 @@ void display_ascii()
   FILE *fptr;
   fptr = fopen(splashScreenConfig, "r");
 
-  system(CLEAR);
+  // system(CLEAR);
   char splash[128];
   while (fgets(splash, sizeof(splash), fptr) != NULL)
   {
